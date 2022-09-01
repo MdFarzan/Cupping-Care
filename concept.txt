@@ -1,0 +1,29 @@
+Name: Cupping Care
+
+Concept: 
+	A Hijma Therapy spacialist wants to provide therapy at doorstep,
+	needs a site for generate enquiry,
+
+Solution:
+	A site with hijma info (like benefits, as needed)
+	specialist info (experience etc.)
+	enquiry form
+	cta
+	contact info
+
+
+Layout:
+	1. minimal header: mobile no, logo, email
+	2. Nav with contact us button
+	3. Slider or Hero section
+	4. Benefits of hijma as spread around therapy
+	5. Who needs
+	6. About Us
+	7. Why Us
+	8. Reviews
+	9. Enquiry form
+	10. Footer with usefull links as about us, social icons, contact info
+
+Future Enhancement:
+	Intgreted appointment booking with facebook
+	
