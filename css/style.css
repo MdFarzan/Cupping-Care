@@ -25,5 +25,116 @@
 
 html{
     font-size:16px;
+    scroll-behavior: smooth;
 }
 
+.hero{
+    height:100vh;
+}
+
+.hero{
+    background-image: url('/assets/hero-img.jpg');
+    background-size:cover;
+    background-repeat:no-repeat
+}
+
+header .container{
+    padding:0;
+}
+
+.container, .container-fluid{
+    padding:15px;
+}
+
+.container{
+    max-width:1280px;
+    margin:0 auto;
+}
+
+.container-fluid{
+    max-width: 100%;
+}
+
+[class^="col-"]{
+    padding:10px;
+}
+
+.col-3{
+    width:33.33%;
+}
+
+.col-4 {
+    width: 25%;
+}
+
+.col-6{
+    width:50%;
+}
+
+.col-12{
+    width:100%;
+}
+
+.flex{
+    display:flex;
+}
+
+.f-center{
+    justify-content: center;
+}
+
+.f-h-center{
+    justify-content: center;
+}
+
+.f-center-center{
+    justify-content:center;
+    align-items: center;
+}
+
+.hr-icon-info {
+    display: flex;
+    align-items: center;
+}
+
+.hr-icon-info span{
+    display:block;
+}
+
+.hr-icon-info .icon {
+    display: inline-block;
+    background: #fff;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 16px;
+    line-height: 61px;
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.2)
+}
+
+.hr-icon-info img {
+    width: 30px;
+    
+    
+}
+
+.hr-icon-info .icon-info {
+    font-size: 22px;   
+    color:#fff;
+}
+
+
+#header-logo img{
+    width:120px;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+a{
+    text-decoration: none;
+    font-family:var(--prim-font);
+}
