@@ -12,7 +12,7 @@
 /* global variables */
 :root{
     --prim-font: 'Roboto Slab', serif;
-    --prim-font-weight: 700;
+    --prim-font-weight: 500;
     --sec-font: 'Caveat', cursive;
     --sec-font-weight: 700;
     --body-font: 'Mukta', sans-serif;
@@ -36,6 +36,21 @@ html{
     background-image: url('/assets/hero-img.jpg');
     background-size:cover;
     background-repeat:no-repeat
+}
+
+.hero.hero h1{
+    margin-bottom: 18px;
+    color: #fff;
+}
+
+.hero-content{
+    padding:60px 0;
+    color: #fff;
+    
+}
+
+.hero-content p{
+    margin-bottom: 30px;
 }
 
 header .container{
@@ -87,6 +102,9 @@ header .container{
     justify-content: center;
 }
 
+.f-j-end{
+    justify-content: flex-end;
+}
 .f-center-center{
     justify-content:center;
     align-items: center;
@@ -126,9 +144,38 @@ header .container{
 
 
 #header-logo img{
-    width:120px;
+    width:150px;
 }
 
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding:15px 15px;
+    color:#fff;
+    text-transform:uppercase;
+    transition:300ms;
+    font-size:16px;
+}
+
+nav a:hover{
+    color: var(--prim-color);
+}
+
+nav a.active{
+    color:#000;
+    
+}
+
+body{
+    font-family: var(--body-font);
+    font-size:18px;
+}
 img{
     max-width:100%;
     height:auto;
@@ -138,3 +185,40 @@ a{
     text-decoration: none;
     font-family:var(--prim-font);
 }
+
+h1, h2, h3, h4, h5, h6{
+    color:var(--accent-color);
+    font-family: var(--prim-font);
+    font-weight: var(--prim-font-weight);
+    line-height: 1.15;
+    margin-bottom:10px;
+}
+
+p{
+    margin-bottom:10px;
+}
+
+h1 {
+    font-size: 3.7rem;
+}
+
+.btn{
+    display: inline-block;
+    padding:15px 35px;
+    border-radius:24px;
+    transition:300ms ease-in-out;
+}
+
+.btn.btn-primary {
+    background-color: var(--accent-color);
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.btn:hover{
+    background-color: var(--prim-color);
+    transform:translateY(-12px);
+    box-shadow:0 0 40px rgba(0,0,0,0.2)
+}
+
