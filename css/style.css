@@ -1,0 +1,29 @@
+/* 
+    style.css
+    main css file for cupping care
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* global variables */
+:root{
+    --prim-font: 'Roboto Slab', serif;
+    --prim-font-weight: 700;
+    --sec-font: 'Caveat', cursive;
+    --sec-font-weight: 700;
+    --body-font: 'Mukta', sans-serif;
+    --body-font-weight: 300;
+
+    --prim-color: #3d474d;
+    --sec-olor: #fff;
+    --accent-color: #86a844;
+}
+
+html{
+    font-size:16px;
+}
+
