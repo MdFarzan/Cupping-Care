@@ -17,7 +17,7 @@ Layout:
 	2. Nav with contact us button
 	3. Slider or Hero section
 	4. Benefits of hijma as spread around therapy
-	5. Who needs
+	5. Who needs // not available
 	6. About Us
 	7. Why Us
 	8. Reviews

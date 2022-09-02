@@ -82,8 +82,16 @@ header .container{
     width: 25%;
 }
 
+.col-5 {
+    width: 41.66%;
+}
+
 .col-6{
     width:50%;
+}
+
+.col-7{
+    width:58.33%;
 }
 
 .col-12{
@@ -278,6 +286,16 @@ section{
     background-color:#fff;
     /* border-color:#fff;
     border-style:solid; */
+}
+
+
+.offset-to-right {
+    margin-right: -90px;
+    z-index: 1;
+    background: #F8F7F6;
+    padding: 60px 40px;
+    border-radius: 43px;
+    box-shadow: 0 8px 24px rgba(112, 144, 176, 0.15);
 }
 
 body{
