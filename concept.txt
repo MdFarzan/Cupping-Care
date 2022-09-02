@@ -19,10 +19,11 @@ Layout:
 	4. Benefits of hijma as spread around therapy
 	5. Who needs // not available
 	6. About Us
-	7. Why Us
-	8. Reviews
-	9. Enquiry form
-	10. Footer with usefull links as about us, social icons, contact info
+	7. Statistics
+	8. Why Us
+	9. Reviews
+	10. Enquiry form
+	11. Footer with usefull links as about us, social icons, contact info
 
 Future Enhancement:
 	Intgreted appointment booking with facebook
