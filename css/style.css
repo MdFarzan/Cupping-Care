@@ -654,3 +654,21 @@ footer .col-4{
     }
 
 }
+
+@media (max-width:1024px){
+    .hr-icon-info .icon-info {
+        font-size: 20px;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    .icon-box .box-title {
+        line-height: 1.5;
+    }
+    
+    .icon-box .box {
+        padding: 15px 0px;
+    }
+}
