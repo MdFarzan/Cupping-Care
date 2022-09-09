@@ -452,7 +452,7 @@ h4 {
 
 #testimonial {
     background-image: linear-gradient(to right, var(--prim-color) 50%, var(--accent-color) 50%);
-    padding: 60px 0;
+    
 }
 
 .testimonial-wrap {
