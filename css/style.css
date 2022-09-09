@@ -126,6 +126,7 @@ header .container{
 .hr-icon-info {
     display: flex;
     align-items: center;
+    transition:300ms;
 }
 
 .hr-icon-info span{
@@ -155,6 +156,10 @@ header .container{
     color:#fff;
 }
 
+.hr-icon-info:hover {
+    transform: scale(1.05);
+    
+}
 
 #header-logo img{
     width:150px;
@@ -169,20 +174,18 @@ nav ul{
 
 nav a {
     display: block;
-    padding:15px 15px;
+    padding:8px 15px;
     color:#fff;
     text-transform:uppercase;
     transition:300ms;
     font-size:16px;
 }
 
-nav a:hover{
-    color: var(--prim-color);
-}
 
-nav a.active{
-    color:#000;
-    
+
+nav a.active, nav a:hover{
+    color: var(--accent-color);
+    background-color: #fff;
 }
 
 .btn {
