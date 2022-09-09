@@ -395,6 +395,7 @@ section{
 #why-us img{
     display:block;
     margin-left:25px;
+    position:absolute;
 }
 
 body{
