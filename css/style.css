@@ -19,7 +19,7 @@
     --body-font-weight: 300;
 
     --prim-color: #3d474d;
-    --sec-olor: #fff;
+    --sec-color: #fff;
     --accent-color: #86a844;
 }
 
@@ -428,3 +428,140 @@ h1 {
 h2 {
     font-size: 2.6rem;
 }
+
+/* slider styling starts */
+
+
+
+#testimonial {
+    background-image: linear-gradient(to right, var(--prim-color) 50%, var(--accent-color) 50%);
+    padding: 60px 0;
+}
+
+.testimonial-wrap {
+    display: flex;
+    max-width: 1120px;
+    margin: 0 auto;
+    border: 6px solid #fff;
+    border-radius: 24px;
+    background-color: var(--accent-color);
+    padding: 40px;
+    color: #fff;
+    display: flex;
+}
+
+.testimonial-wrap .slide {
+    height: 100%;
+
+}
+
+.testimonial-wrap .col {
+    padding: 10px;
+}
+
+.testimonial-wrap .avtar-wrap {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    /*   border:1px solid #fff; */
+
+}
+
+.testimonial-wrap .content-wrap {
+    width: 60%;
+    /*   border:1px solid #fff; */
+
+}
+
+.testimonial-wrap .rounded-avtar {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.testimonial-wrap .quote {
+    font-size: 80px;
+    color: var(--sec-color);
+    line-height: 1;
+}
+
+.testimonial-wrap .quote.opposite {
+    transform: rotateY(180deg);
+}
+
+.testimonial-wrap .credits {
+    margin: 10px 0 30px;
+    font-size: 22px;
+}
+
+.testimonial-wrap .ratings {
+    position: relative;
+    margin-left: 25px;
+}
+
+.testimonial-wrap .ratings::after {
+    content: "\f005\f005\f005\f005\f005";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    color: #FED72E;
+    width: 90%;
+    overflow: hidden;
+    line-height:1.5;
+}
+
+.testimonial-wrap .title {
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family:var(--prim-font);
+    font-weight:400;
+}
+
+.testimonial-wrap .time-line li {
+    display: inline-block;
+    width: 40px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.testimonial-wrap .time-line li.active {
+    width: 80px;
+}
+
+.testimonial-wrap .time-line li:not(.active) {
+    opacity: 0.5;
+}
+
+.testimonial-wrap .desc {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.slides-wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    /*   min-height:550px; */
+}
+
+.slides-wrap .slide {
+    position: absolute;
+    z-index: 1;
+    transition: 500ms ease-in-out;
+    padding:0 15px;
+}
+
+
+
+/* slider styling ends */
