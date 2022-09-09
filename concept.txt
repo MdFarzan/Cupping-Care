@@ -22,8 +22,7 @@ Layout:
 	7. Statistics
 	8. Why Us
 	9. Reviews
-	10. Enquiry form
-	11. Footer with usefull links as about us, social icons, contact info
+	10. Footer with usefull links as about us, social icons, contact info
 
 Future Enhancement:
 	Intgreted appointment booking with facebook
