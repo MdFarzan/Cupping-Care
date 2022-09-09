@@ -528,7 +528,7 @@ h4 {
 }
 
 .testimonial-wrap .title {
-    font-size: 35px;
+    font-size: 1.8em;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 15px;
@@ -619,4 +619,33 @@ footer p{
 
 footer .col-4{
     padding:20px;
+}
+
+/* adding responsiveness */
+
+@media (max-width:1200px){
+
+    .hero {
+            padding: 0 15px;
+        }
+
+    h1 {
+            font-size: 3.4rem;
+        }
+    h2 {
+        font-size: 2.4rem;
+    }
+
+    .icon-box .box {
+        padding: 16px;
+    }
+
+    .stat-box .stat-num {
+        font-size: 2em;
+    }
+
+    .testimonial-wrap .title {
+        font-size: 1.6em;
+    }
+
 }
