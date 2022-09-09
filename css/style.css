@@ -75,11 +75,12 @@ header .container{
 }
 
 .col-3{
-    width:33.33%;
+    width: 25%;
 }
 
 .col-4 {
-    width: 25%;
+    width: 33.33%;
+    
 }
 
 .col-5 {
@@ -429,6 +430,13 @@ h2 {
     font-size: 2.6rem;
 }
 
+h3{
+    font-size: 2.1rem;
+}
+
+h4 {
+    font-size: 1.9rem;
+}
 /* slider styling starts */
 
 
@@ -562,6 +570,49 @@ h2 {
     padding:0 15px;
 }
 
-
-
 /* slider styling ends */
+
+.hr-list span {
+    display: inline-block;
+}
+
+.hr-list .list-icon {
+    font-size: 20px;
+    color: var(--accent-color);
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.hr-list .list-info {
+    font-size: 20px;
+    vertical-align: text-bottom;
+}
+
+footer{
+    background-color:var(--sec-color);
+    padding:80px 0 00px;
+}
+
+footer h4{
+    font-size:1.4em;
+}
+
+footer p{
+    margin-top:20px;
+}
+
+.footer-credits{
+    margin-top:15px;
+    padding:10px;
+    color:#fff;
+    text-align:center;
+    background-color: var(--prim-color);
+}
+
+.footer-credits a{
+    color:#fff;
+}
+
+footer .col-4{
+    padding:20px;
+}
