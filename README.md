@@ -4,6 +4,9 @@ A site design for Cupping Therapy (Hijma Therapy) specialist provides therapy at
 # Portfolio No
 MDP-01
 
+## Built with
+Built with core technologies: HTML5, CSS3, Vanilla Javascript.
+
 ## Images
 I have no rights of images, logo & icons-images used in this project.
 
