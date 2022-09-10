@@ -336,7 +336,7 @@ section{
 
 
 #statistics{
-    background-image:url('/assets/triangle-bg.png');
+    background-image:url('https://mdfarzan.github.io/assets/triangle-bg.png');
     background-size:contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
