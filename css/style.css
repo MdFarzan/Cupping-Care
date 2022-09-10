@@ -60,7 +60,9 @@ html{
 }
 
 .hero{
-    background-image: url('/assets/hero-img.jpg');
+    /* background-image: url('/assets/hero-img.jpg'); */
+    background-image: url('https://mdfarzan.github.io/Cupping-Care/assets/hero-img.jpg');
+    
     background-size:cover;
     background-repeat:no-repeat
 }
@@ -1110,9 +1112,10 @@ footer .col-4{
     }
 
     .hero-sm{
-        background-image: url('/assets/hero-img-sm.jpg');
+        /* background-image: url('/assets/hero-img-sm.jpg'); */
+        background-image: url('https://mdfarzan.github.io/Cupping-Care/assets/hero-img-sm.jpg');
         background-size:cover;
-        background-image:right center;
+        
     }
 
 }
