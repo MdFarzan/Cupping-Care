@@ -1109,4 +1109,10 @@ footer .col-4{
         font-size: 16px;
     }
 
+    .hero-sm{
+        background-image: url('/assets/hero-img-sm.jpg');
+        background-size:cover;
+        background-image:right center;
+    }
+
 }
