@@ -95,6 +95,10 @@ header .container{
     width:58.33%;
 }
 
+.col-8 {
+    width: 66.66%;
+}
+
 .col-12{
     width:100%;
 }
@@ -464,7 +468,6 @@ h4 {
     background-color: var(--accent-color);
     padding: 40px;
     color: #fff;
-    display: flex;
 }
 
 .testimonial-wrap .slide {
@@ -866,8 +869,142 @@ footer .col-4{
         margin-bottom: 20px;
     }
 
+    .hero-content .col-6 {
+        width: 100%;
+    }
+
     .header-info .col-12.flex.f-center-center{
         border-bottom:1px solid #fff;
         margin-bottom:15px;
     }
+
+    section .flex{
+        flex-direction: column;
+    }
+
+    #it-cures .flex{
+        flex-direction: initial;
+    }
+
+    section{
+        padding:50px 0;
+    }
+
+    section [class^="col-"] {
+        width:100%;
+    }
+
+    .offset-to-right {
+        margin-right: 0px;
+    }
+
+    #it-cures>.container>div.flex {
+        flex-direction: column;
+    }
+
+    #about-us .flex {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #statistics .col-4:nth-child(1) {
+        margin-top: 0;
+    }
+
+    #statistics .col-4:nth-child(2){
+        margin-top:50px;
+    }
+
+    #statistics .col-4:nth-child(3) {
+        margin-top: 50px;
+    }
+
+    #statistics .col-4:nth-child(4) {
+        margin-top: 50px;
+    }
+
+    #why-us .col-6:nth-child(1) {
+        display: none;
+    }
+
+    .slides-wrap {
+        width:95%;
+    }
+
+    .testimonial-wrap {
+        flex-direction: column;
+        padding: 15px 20px;
+    }
+
+    .testimonial-wrap .rounded-avtar{
+        width:100px;
+        height:100px;
+    }
+
+    .testimonial-wrap .avtar-wrap, .testimonial-wrap .content-wrap {
+        width: 100%;
+    }
+
+    .testimonial-wrap .quote {
+        font-size: 50px;
+    }
+
+    .testimonial-wrap .credits {
+        margin: 10px 0 20px;
+        font-size: 18px;
+    }
+
+    .testimonial-wrap .title {
+        font-size: 1.1em;
+    }
+
+    .testimonial-wrap .time-line li {
+        width: 30px;
+    }
+
+    .testimonial-wrap .time-line li {
+        display: inline-block;
+        width: 30px;
+        height: 4px;
+        background-color: #fff;
+        border-radius: 8px;
+    }
+    
+    footer{
+        padding:60px 0 0;
+    }
+
+    footer .col-4 {
+        width: 100%;
+    }
+
+    footer .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .title-box .sub-title {
+        font-size: 1.8rem;
+    }
+
+    .hero-content, #it-cures, .offset-to-right, .title-box, #why-us {
+        text-align: center;
+    }
+
+    #it-cures p, .offset-to-right p, #why-us p {
+        text-align:left;
+    }
+
+    .offset-to-right {
+        padding: 30px;
+    }
+        
 }
