@@ -589,7 +589,7 @@ h4 {
     font-size: 20px;
     color: var(--accent-color);
     margin-right: 10px;
-    margin-bottom: 4px;
+
 }
 
 .hr-list .list-info {
@@ -671,4 +671,124 @@ footer .col-4{
     .icon-box .box {
         padding: 15px 0px;
     }
+}
+
+@media (max-width:991px){
+    .hr-icon-info .icon-info {
+        font-size: 18px;
+    }
+
+    .hr-icon-info .icon {
+        width: 40px;
+        height: 40px;
+        line-height: 50px;
+    }
+
+    .hr-icon-info img {
+        width: 24px;
+    }
+
+    .header-info .col-6 {
+        width: 35%;
+    }
+
+    .header-info .col-3 {
+        width: 32.5%;
+    }
+
+    #header-logo img {
+        width: 120px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+    }
+    
+    .hero-content .col-6 {
+        width: 70%;
+    }
+
+    .btn.btn-primary {
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 12px 32px;
+    }
+
+    .icon-box .circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .icon-box .box-title {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    .stat-box .stat-num {
+        font-size: 1.5em;
+    }
+
+    .stat-box .stat-icon {
+        top: -40px;
+        width: 75px;
+        height: 75px;
+        padding: 18px;
+    }
+
+    #why-us img {
+        
+        z-index: -1;
+    }
+
+    .testimonial-wrap .rounded-avtar {
+        width: 150px;
+        height: 150px;
+    }
+
+    .testimonial-wrap {
+        padding: 30px 40px;
+    }
+
+    .testimonial-wrap .quote {
+        font-size: 60px;
+    }
+
+    .testimonial-wrap .credits span {
+        display: block;
+    }
+
+    .testimonial-wrap .ratings {
+        margin-left: 0;
+    }
+
+    .testimonial-wrap .title {
+        font-size: 1.3em;
+    }
+
+    .hr-list {
+        margin-bottom: 4px;
+    }
+
+    footer h4 {
+        font-size: 1.2em;
+    }
+
+    footer .col-4 {
+        padding: 14px;
+    }
+
+    .hr-list .list-info, .hr-list .list-icon {
+        font-size: 18px;
+    }
+
+
 }
