@@ -40,9 +40,15 @@ function next() {
         slide.style.transform = `translateX(${100 * (index - currentSlide)}%)`;
     });
 
-       
-
 }
 
-console.log(timeLine);
 // slider js ends
+
+// menu js
+document.querySelector('#menu-open').onclick = function(){
+    document.querySelector('.sm-menu').style.transform = "rotate(0deg)";
+}
+
+document.querySelector('#menu-close').onclick = function () {
+    document.querySelector('.sm-menu').style.transform = "rotate(-90deg)";
+}
