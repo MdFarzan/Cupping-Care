@@ -1008,3 +1008,61 @@ footer .col-4{
     }
         
 }
+
+@media (max-width:480px){
+
+    .hr-icon-info .icon-info {
+        font-size: 17px;
+    }
+
+    .hero-sm #header-logo img {
+        width: 130px;
+    }
+
+    h1 {
+        font-size: 2.1rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+    
+    .btn {
+        padding: 10px 30px;
+    }
+
+    .btn.btn-primary {
+        font-size: 14px;
+    }
+
+    .offset-to-right {
+        padding: 30px 20px;
+    }
+
+    .title-box .sub-title {
+        font-size: 1.6rem;
+    }
+
+    .testimonial-wrap .quote {
+        font-size: 35px;
+    }
+
+    .icon-box .circle {
+        width: 65px;
+        height: 65px;
+    }
+
+    .icon-box .circle {        
+        padding: 12px;
+    }
+
+    .icon-box .box-title {
+        font-size: 14px;
+        line-height: 1;
+    }
+
+    .footer-credits {   
+        font-size: 16px;
+    }
+
+}
