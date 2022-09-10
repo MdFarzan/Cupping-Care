@@ -8,7 +8,7 @@ window.addEventListener('load', function(){
     document.querySelector('#preloader-wrap').style.display = 'none';
 });
 
-console.info("main script loaded.");
+
 // slider js starts
 const slides = document.querySelectorAll('.testimonial .slide');
 const timeLine = document.querySelectorAll('.testimonial .time-line li');

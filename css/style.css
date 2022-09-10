@@ -319,8 +319,7 @@ section{
 
 .icon-box .box:hover .circle{
     background-color:#fff;
-    /* border-color:#fff;
-    border-style:solid; */
+    
 }
 
 
@@ -343,7 +342,6 @@ section{
 
 .stat-box{
     background-color: #79973d;
-    /* background-color:#9eb969; */
     position:relative;
     padding:70px 10px 40px;
     margin:0 15px;
@@ -477,9 +475,9 @@ h3{
 h4 {
     font-size: 1.9rem;
 }
+
+
 /* slider styling starts */
-
-
 
 #testimonial {
     background-image: linear-gradient(to right, var(--prim-color) 50%, var(--accent-color) 50%);
@@ -510,14 +508,11 @@ h4 {
     width: 40%;
     display: flex;
     align-items: center;
-    /*   border:1px solid #fff; */
 
 }
 
 .testimonial-wrap .content-wrap {
     width: 60%;
-    /*   border:1px solid #fff; */
-
 }
 
 .testimonial-wrap .rounded-avtar {
@@ -599,7 +594,6 @@ h4 {
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
-    /*   min-height:550px; */
 }
 
 .slides-wrap .slide {
